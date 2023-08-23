@@ -1,4 +1,4 @@
 Welcome to LearningGit!!!
 
-Author: Thomas
+Author: Thomas Huber
 Twitter :thomasHuber
