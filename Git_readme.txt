@@ -18,6 +18,7 @@
 -To check the current file status				=	git status
 -To create/open a file	in notepad				=	notepad filename.exe
 -To add file to staging area in git				=	git add .  | git add filename.exe
+-To remove file from staging area in git			=	git rm -r --cached filename.exe
 -To commit a file in git 					=	git commit -m "comment/message"
 -To see differences in a file					=	git diff filename.exe
 -To see all differences of the working directory		=	git diff
