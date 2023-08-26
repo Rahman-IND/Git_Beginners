@@ -1,6 +1,6 @@
-# Welcome to LearningGit!!! and my Project!
+# Welcome to Git for Beginners Course
 
 Author: Thomas Claudius Huber
-- Twitter: @thomasHuber
-- Website: https://www.google.com
-- Github: https://github.com/Rahman-IND
+- Twitter: @thomasclaudiush
+- Website: https://www.thomasclaudiushuber.com
+- Github: https://github.com/thomasclaudiushuber
