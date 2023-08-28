@@ -20,6 +20,7 @@
 -To add file to staging area in git				=	git add .  | git add filename.exe
 -To remove file from staging area in git			=	git rm -r --cached filename.exe
 -To commit a file in git 					=	git commit -m "comment/message"
+-To rewite/edit a commit of a file in git 			=	git commit --amend -m "comment/message"
 -To see differences in a file					=	git diff filename.exe
 -To see all differences of the working directory		=	git diff
 -To see differences btw staging and repository			=	git diff --staged
