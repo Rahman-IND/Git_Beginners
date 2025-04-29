@@ -24,7 +24,27 @@ Step:2
 Step:3
 
 >>GitHub Account (Web)
-- go to = GitHub > Settings > SSH and GPG keys > New SSH key
+- go to 				= GitHub > Settings > SSH and GPG keys > New SSH key
 
 >>GitLab Account (Web)
-- go to = GitLab > Preferences > SSH Keys
+- go to 				= GitLab > Preferences > SSH Keys
+
+Step:4
+
+- Edit SSH config file			= nano ~/.ssh/config
+
+##Add the following to config file
+
+# GitHub
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_github
+  IdentitiesOnly yes
+
+# GitLab
+Host gitlab.com
+  HostName gitlab.com
+  User git
+  IdentityFile ~/.ssh/id_gitlab
+  IdentitiesOnly yes
