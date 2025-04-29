@@ -1,0 +1,30 @@
+Step:1
+
+##For GitHub
+-To create ssh Key			= ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/id_github
+
+##For GitLab
+-To create ssh Key			= ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/id_github
+
+-Find the keys				= cd .shh > dir
+
+Step:2
+
+-To Run	ssh-agent			= eval "$(ssh-agent -s)"
+
+##For GitHub
+-To add Identity Run			= ssh-add ~/.ssh/id_github
+
+##For GitLab
+-To add Identity Run			= ssh-add ~/.ssh/id_gitlab
+
+##For GitHub & GitLab
+-To print the "key.pub"			= cat "keyname.pub"	>>	<copy the message>
+
+Step:3
+
+>>GitHub Account (Web)
+- go to = GitHub > Settings > SSH and GPG keys > New SSH key
+
+>>GitLab Account (Web)
+- go to = GitLab > Preferences > SSH Keys
